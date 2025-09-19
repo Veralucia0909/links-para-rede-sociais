@@ -4,12 +4,17 @@ h1{
     text-align: center;
     border-radius: 50px;
     font-style: oblique;
+    width: 100%;
 }
 
 
 body{
     background-color: rgb(189, 159, 216);
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
