@@ -1,7 +1,9 @@
 h1{
     color: rgb(73, 73, 122);
     background-color: rgb(191, 191, 211);
-
+    text-align: center;
+    border-radius: 50px;
+    font-style: oblique;
 }
 
 
@@ -13,4 +15,12 @@ body{
 a{
     background-color: cyan;
     color: blue
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+
+
+
 }
