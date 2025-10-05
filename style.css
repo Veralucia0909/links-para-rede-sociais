@@ -1,6 +1,6 @@
 h1{
-    color: rgb(73, 73, 122);
-    background-color: rgb(191, 191, 211);
+    color: rgb(27, 27, 205);
+    background-color: rgb(121, 121, 190);
     text-align: center;
     border-radius: 50px;
     font-style: oblique;
@@ -9,7 +9,7 @@ h1{
 
 
 body{
-    background-color: rgb(189, 159, 216);
+    background-color: rgb(48, 52, 179);
     color: black;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body{
 }
 
 a{
-    background-color: cyan;
+    background-color: rgb(205, 186, 42);
     color: blue
     display: block;
     text-align: center;
