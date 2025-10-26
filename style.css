@@ -1,33 +1,60 @@
-h1{
-    color: rgb(27, 27, 205);
-    background-color: rgb(121, 121, 190);
-    text-align: center;
-    border-radius: 50px;
-    font-style: oblique;
-    width: 100%;
-}
 
 
-body{
+body {
     background-color: rgb(48, 52, 179);
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
 }
 
-a{
+h1 {
+    color: rgb(27, 27, 205);
+    background-color: rgb(217, 211, 24);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    font-style: oblique;
+    width: 90%;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(217, 211, 24, 0.6);
+}
+
+/* LINKS */
+a {
     background-color: rgb(205, 186, 42);
-    color: blue
+    color: blue;
     display: block;
     text-align: center;
-    margin: 20px;
-    padding: 10px;
-
-
+    margin: 15px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(205, 186, 42, 0.6);
 }
 
-img{
+/* EFEITO LUMINOSO */
+a:hover {
+    color: white;
+    background-color: rgb(27, 27, 205);
+    box-shadow: 0 0 25px rgb(255, 255, 102),
+                0 0 50px rgb(255, 255, 102),
+                0 0 75px rgb(255, 255, 102);
+    transform: scale(1.05);
+}
+
+/* IMAGEM */
+img {
     width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
 }
